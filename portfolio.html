@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <title>Portfolio</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Trebuchet+MS:wght@400;700&display=swap");
+
+      body {
+        font-family: "Trebuchet MS", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="bg-black text-white m-0 p-0 box-border">
+    <nav class="w-full h-20 bg-black md:fixed top-0 z-50">
+      <!-- <nav class="w-full h-20 bg-black md:fixed top-0 z-50 flex flex-col sm:flex-col"></nav> -->
+      <div class="container mx-auto flex items-center h-full px-4">
+        <a href="" class="text-4xl font-bold text-white">
+          Muhammad<span class="text-green-700"> Nofal</span>
+        </a>
+        <ul class="ml-auto flex space-x-10">
+          <li>
+            <a
+              href="#About"
+              class="text-lg hover:text-green-700 transition duration-400"
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              href="#Services"
+              class="text-lg hover:text-green-700 transition duration-400"
+              >Services</a
+            >
+          </li>
+          <li>
+            <a
+              href="#Blog"
+              class="text-lg hover:text-green-700 transition duration-400"
+              >Blog</a
+            >
+          </li>
+          <li>
+            <a
+              href="#Contact"
+              class="text-lg hover:text-green-700 transition duration-400"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <header class="mt-48">
+      <div class="container mx-auto grid grid-cols-2 items-center px-10">
+        <div class="space-y-4">
+          <h1 class="text-4xl">Hello,</h1>
+          <p class="text-6xl font-medium">
+            I am <span class="text-green-700">Muhammad Nofal</span>
+          </p>
+          <p class="text-lg">
+            Proficient in HTML, CSS, JavaScript, and React.js with experience in
+            Windows and Linux environments, committed to delivering high-quality
+            work and driving organizational growth.
+          </p>
+          <h5 class="text-base text-gray-400">Frontend Developer</h5>
+          <div class="space-x-4">
+            <a
+              href="./assets/Nofalcv.pdf"
+              download
+              class="inline-block border border-transparent py-3 px-8 text-base font-medium text-white rounded-lg transition duration-400 bg-green-700 hover:bg-green-800"
+              >Download CV</a
+            >
+            <a
+              href=""
+              class="inline-block border border-white py-3 px-8 text-base font-medium text-white rounded-lg transition duration-400 hover:bg-white hover:text-black"
+              >Read more</a
+            >
+          </div>
+        </div>
+        <div>
+          <img src="./assets/mypic.jpeg" alt="Muhammad Nofal" class="w-[85%]" />
+        </div>
+      </div>
+    </header>
+
+    <!-- <section id="About" class="pt-16">
+      <h1 class="text-center mt-40 mb-11 text-5xl"><span class="text-green-700">A</span>BOUT</h1>
+      <div class="container mx-auto text-center relative">
+        <p class="absolute w-[62%] left-1/2 transform -translate-x-1/2 text-lg font-normal">I'm a diligent <span class="text-green-700">Frontend Developer</span>, passionately committed to refining my <span class="text-green-700">CSS, HTML,</span> and <span class="text-green-700">React</span> skills. My relentless dedication drives me to continually learn and adapt, staying at the forefront of <span class="text-green-700">web development</span> trends. My goal is to create captivating, responsive, and user-friendly web interfaces.</p>
+      </div>
+      <div class="grid grid-cols-4 gap-10 justify-center items-center mt-96 mx-32">
+        <article class="flex flex-col justify-center items-center gap-2 text-center">
+          <img src="./assets/name.png" alt="Name" class="w-16" />
+          <h5 class="text-base text-white">FULL NAME</h5>
+          <p>Muhammad Nofal</p>
+        </article>
+        <article class="flex flex-col justify-center items-center gap-2 text-center">
+          <img src="./assets/mail.png" alt="Email" class="w-16" />
+          <h5 class="text-base text-white">EMAIL</h5>
+          <p>muhammadnofal446@gmail.com</p>
+        </article>
+        <article class="flex flex-col justify-center items-center gap-2 text-center">
+          <img src="./assets/linkedin.png" alt="LinkedIn" class="w-16" />
+          <h5 class="text-base text-white">LINKEDIN</h5>
+          <p><a href="https://www.linkedin.com/in/muhammadnofal-aa9123209" target="_blank" rel="noopener">www.linkedin.com/in/muhammadnofal-aa9123209</a></p>
+        </article>
+        <article class="flex flex-col justify-center items-center gap-2 text-center">
+          <img src="./assets/phone-call.png" alt="Phone" class="w-16" />
+          <h5 class="text-base text-white">PHONE</h5>
+          <p>+923346294585</p>
+        </article>
+      </div>
+    </section> -->
+    <section id="About" class="pt-16">
+      <h1 class="text-center mt-40 mb-11 text-5xl">
+        <span class="text-green-700">A</span>BOUT
+      </h1>
+      <div class="container mx-auto text-center relative">
+        <p
+          class="absolute w-[62%] left-1/2 transform -translate-x-1/2 text-lg font-normal"
+        >
+          I'm a diligent <span class="text-green-700">Frontend Developer</span>,
+          passionately committed to refining my
+          <span class="text-green-700">CSS, HTML,</span> and
+          <span class="text-green-700">React</span> skills. My relentless
+          dedication drives me to continually learn and adapt, staying at the
+          forefront of
+          <span class="text-green-700">web development</span> trends. My goal is
+          to create captivating, responsive, and user-friendly web interfaces.
+        </p>
+      </div>
+      <div
+        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 justify-center items-center mt-96 mx-32"
+      >
+        <article
+          class="flex flex-col justify-center items-center gap-2 text-center"
+        >
+          <img src="./assets/name.png" alt="Name" class="w-16" />
+          <h5 class="text-base text-white">FULL NAME</h5>
+          <p>Muhammad Nofal</p>
+        </article>
+        <article
+          class="flex flex-col justify-center items-center gap-2 text-center"
+        >
+          <img src="./assets/mail.png" alt="Email" class="w-16" />
+          <h5 class="text-base text-white">EMAIL</h5>
+          <p>muhammadnofal446@gmail.com</p>
+        </article>
+        <article
+          class="flex flex-col justify-center items-center gap-2 text-center"
+        >
+          <img src="./assets/linkedin.png" alt="LinkedIn" class="w-16" />
+          <h5 class="text-base text-white">LINKEDIN</h5>
+          <p>
+            <a
+              href="https://www.linkedin.com/in/muhammadnofal-aa9123209"
+              target="_blank"
+              rel="noopener"
+              >www.linkedin.com/in/muhammadnofal-aa9123209</a
+            >
+          </p>
+        </article>
+        <article
+          class="flex flex-col justify-center items-center gap-2 text-center"
+        >
+          <img src="./assets/phone-call.png" alt="Phone" class="w-16" />
+          <h5 class="text-base text-white">PHONE</h5>
+          <p>+923346294585</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="Services" class="pt-2">
+      <h1 class="text-center mt-40 mb-11 text-5xl">
+        <span class="text-green-700">W</span>hat I Do
+      </h1>
+      <div
+        class="container mx-auto grid grid-cols-3 gap-16 justify-center items-center mt-24"
+      >
+        <article
+          class="bg-[#212121] p-12 flex flex-col gap-8 border-b-4 border-transparent hover:border-green-700 transition duration-400"
+        >
+          <img
+            src="./assets/software.png"
+            alt="Software Development"
+            class="w-10"
+          />
+          <h2 class="text-2xl font-medium text-[#7e686895]">
+            Software Development
+          </h2>
+          <p class="text-lg">
+            Providing end-to-end software development services, including
+            design, coding, testing, and maintenance to deliver tailored
+            solutions for clients.
+          </p>
+        </article>
+        <article
+          class="bg-[#212121] p-12 flex flex-col gap-8 border-b-4 border-transparent hover:border-green-700 transition duration-400"
+        >
+          <img src="./assets/coding.png" alt="Web Development" class="w-10" />
+          <h2 class="text-2xl font-medium text-[#7e686895]">Web Development</h2>
+          <p class="text-lg">
+            Creating websites by coding, designing, and optimizing for
+            functionality, performance, and user experience, ensuring a strong
+            online presence.
+          </p>
+        </article>
+        <article
+          class="bg-[#212121] p-12 flex flex-col gap-8 border-b-4 border-transparent hover:border-green-700 transition duration-400"
+        >
+          <img
+            src="./assets/python.png"
+            alt="Python Programming"
+            class="w-10"
+          />
+          <h2 class="text-2xl font-medium text-[#7e686895]">
+            Python Programming
+          </h2>
+          <p class="text-lg">
+            Extensively using Python in data science, data analysis, machine
+            learning, data engineering, web development, and software
+            development.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="pt-0">
+      <h1 class="text-center mt-40 mb-11 text-5xl">
+        <span class="text-green-700">M</span>y Skills
+      </h1>
+      <div
+        class="container mx-auto grid grid-cols-4 gap-16 justify-center text-center mt-24"
+      >
+        <article
+          class="bg-[#212121] p-4 flex flex-col justify-center items-center border-b-4 border-transparent hover:border-green-700 transition duration-400 rounded-lg"
+        >
+          <h4 class="text-xl font-semibold text-green-700">HTML</h4>
+        </article>
+        <article
+          class="bg-[#212121] p-4 flex flex-col justify-center items-center border-b-4 border-transparent hover:border-green-700 transition duration-400 rounded-lg"
+        >
+          <h4 class="text-xl font-semibold text-green-700">CSS</h4>
+        </article>
+        <article
+          class="bg-[#212121] p-4 flex flex-col justify-center items-center border-b-4 border-transparent hover:border-green-700 transition duration-400 rounded-lg"
+        >
+          <h4 class="text-xl font-semibold text-green-700">JavaScript</h4>
+        </article>
+        <article
+          class="bg-[#212121] p-4 flex flex-col justify-center items-center border-b-4 border-transparent hover:border-green-700 transition duration-400 rounded-lg"
+        >
+          <h4 class="text-xl font-semibold text-green-700">React</h4>
+        </article>
+      </div>
+    </section>
+
+    <section id="Blog">
+      <div class="container mx-auto my-24 text-center">
+        <div class="header">
+          <h1 class="text-5xl font-light">
+            My<span class="text-green-700"> Blog</span>
+          </h1>
+          <p class="text-xl mt-4">
+            Sharing my knowledge and experiences in frontend development, web
+            technologies, and more.
+          </p>
+        </div>
+        <div class="content flex items-center justify-between my-11">
+          <div class="card flex-1 mx-12 shadow-lg bg-[#212121] rounded-xl p-8">
+            <img
+              src="./assets/web-design1.jpg"
+              alt="Blog 1"
+              class="w-full h-auto"
+            />
+            <p class="text-xl mt-4">Blog Post Title</p>
+          </div>
+          <div class="card flex-1 mx-12 shadow-lg bg-[#212121] rounded-xl p-8">
+            <img
+              src="./assets/web-design2.jpg"
+              alt="Blog 2"
+              class="w-full h-auto"
+            />
+            <p class="text-xl mt-4">Blog Post Title</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Contact" class="pt-32">
+      <h1 class="text-center mt-40 mb-11 text-5xl">
+        <span class="text-green-700">G</span>et in Touch
+      </h1>
+      <div class="container mx-auto my-20">
+        <form class="relative w-[60%] mx-auto">
+          <div class="grid grid-cols-2 gap-10 mb-8">
+            <input
+              type="text"
+              placeholder="Your Name"
+              class="py-2 bg-transparent text-base text-[#828282] border-b border-[#7e686895] focus:outline-none focus:border-blueviolet transition duration-400"
+            />
+            <input
+              type="email"
+              placeholder="Your Email"
+              class="py-2 bg-transparent text-base text-[#828282] border-b border-[#7e686895] focus:outline-none focus:border-blueviolet transition duration-400"
+            />
+          </div>
+          <div class="flex flex-col items-center gap-8">
+            <textarea
+              placeholder="Your Message"
+              class="w-full py-2 h-24 bg-transparent text-base text-green-700 border border-[#7e686895] focus:outline-none focus:border-blueviolet transition duration-400 resize-none"
+            ></textarea>
+            <button
+              type="submit"
+              class="btn btn-primary inline-block border border-transparent py-3 px-8 text-base font-medium text-white rounded-lg transition duration-400 bg-green-700"
+            >
+              Send Message
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer class="mt-40 mb-10 text-center text-[#7e686895]">
+      <p>&copy; 2024 Muhammad Nofal. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
